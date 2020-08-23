@@ -1,0 +1,115 @@
+<html>
+<head>
+  <title>Shopping application</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+    }
+    
+    li {
+      float: left;
+    }
+    li .leftNav{
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 12px 18px;
+      
+    }
+    li .leftNav> input{
+      border:none;
+      background-color: transparent;
+      border-bottom: solid 1px whitesmoke;
+      padding:5px;
+      margin-left: 5px;
+      margin-right: 40px;
+    }
+    li .leftNav> input:focus{
+      border: none;
+      border-bottom: solid 2px orange;
+      outline: none;
+    }
+    li .leftNav> i{
+      font-size: 20px;
+    } 
+    li a {
+      display: block;
+      color: #000;
+      text-align: center;
+      padding: 15px 18px;
+      font-weight: bold;
+      ;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: transparent;
+      
+      text-decoration: none;
+    }
+    
+    .active {
+      /* font-weight: bold; */
+    }
+    .header {
+      display: inline;
+      height:50px;
+    }
+    img{
+      float: left;
+    }
+    .login{
+      font-weight: bold;
+    }
+    .leftPane{
+      background-color: orangered;
+      height: 500px;
+    }
+    .rightPane{
+      background-color: pink;
+      height: 500px;
+    }
+    </style>
+<body>
+  <div class="container-fluid">
+    <div class="row header">
+      <img src="assets/logo.png" height="50px"/>
+  <ul>
+    <li><a href="#home"  (role)="button">HOME</a></li>
+    <li><a href="#news">SHOP</a></li>
+    <li><a href="#contact">MAGAZINE</a></li>
+    <li style="float:right">
+      <div class="leftNav">
+        <i class="fa fa-search"></i>
+      <input type="text" placeholder="Search.." name="search">
+      <i class="fa fa-shopping-cart" style="margin-right: 40px;"></i>
+      <span class="login">LOGIN</span>
+      </div>
+      
+      </li>
+  </ul>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 leftPane">
+
+      </div>
+      <div class="col-sm-9 rightPane">
+
+      </div>
+    </div>
+
+  
+</div>
+  <!-- <h1>This is a heading</h1>
+  <p>This is a paragraph.</p> -->
+</body>
+
+</html>
