@@ -1,0 +1,166 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: left;
+  }
+  li .leftNav{
+    display: block;
+    color: #000;
+    text-align: center;
+    /* padding: 12px 18px; */
+    
+  }
+  li .leftNav> input{
+    border:none;
+    background-color: transparent;
+    border-bottom: solid 1px whitesmoke;
+    padding:5px;
+    margin-left: 5px;
+    margin-right: 40px;
+  }
+  li .leftNav> input:focus{
+    border: none;
+    border-bottom: solid 2px orange;
+    outline: none;
+  }
+  li .leftNav> i{
+    font-size: 20px;
+  } 
+  li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 15px 18px;
+    font-weight: bold;
+    ;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: transparent;
+    
+    text-decoration: none;
+  }
+  
+  .active {
+    /* font-weight: bold; */
+  }
+  .header {
+    display: inline;
+    height:50px;
+  }
+  img{
+    float: left;
+  }
+  .login{
+    font-weight: bold;
+    float: right;
+    padding-top: 8px;
+  }
+  .leftPane{
+    /* background-color: orangered; */
+    height: 80vh;
+    padding-left: 0px;
+    overflow:auto;
+  }
+  .filter{
+      padding: 50px 0px;
+      color: #b1afaf;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom:100px;
+  }
+  .rightPane{
+    /* background-color: pink; */
+    height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  .block{
+      margin-bottom: 15px;
+  }
+.ui-slider-handle:focus{
+    border:solid 1px orange;
+    outline:none;
+}
+.ProductImg{
+    height: 260px;
+    width: 260px;
+}
+.product{padding: 10px; display: block;width: 260px;    margin: 25px;
+    margin-bottom: -12vh;
+    margin-top: 0px;
+}
+.priceCard{
+    background: white;
+    /* height: 45px; */
+    padding: 10px;
+    width: inherit;
+    margin-top: -30px;
+    display: inline-block;
+}
+.detailsCard{
+    background: white;
+    position: relative;
+    bottom: 108px;
+    width: 170px;
+    padding: 10px;
+    height: 100px;
+}
+.price{
+    font-size: 14px;
+    /* color: #b1afaf; */
+}
+.categoryName{
+    color: #b1afaf;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.productName{
+    font-weight: bold;
+}
+.profileMain{
+    min-height: 80vh;
+    display: inline-flex;
+    margin-left: 3vw;
+}
+.profileImg{
+    width: 45vw;
+    min-height: 80vh;
+
+}
+.thumbNailWrapper{
+    display: inline-flex;
+    justify-content: center;
+    width: 40vw;
+    margin-top: 3vh;
+}
+.thumbNail{
+    margin-left: 2vw;
+    border: solid 1px #ddd;
+    opacity: 0.5;
+}
+ .active1{
+    opacity: 1;
+}
+.centralZone{
+   
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 0;
+}
+.detailZone{
+    height: 80vh;
+    width: 45vw;
+    padding: 80px;
+    padding-right: 0px;
+    padding-top: 35px;
+}
+
+
+  
